@@ -378,7 +378,8 @@
 				
 			</div>
 			<div class="col-4">
-				<div><a href="https://vk.com/im?sel=71204174" class="button" target="_blank">Обратная связь</a></div>				
+				<div><a href="#feedback" rel="nofollow" class="button modalbox">Обратная связь</a></div>
+
 				<p>Напишите мне, что бы заказать или узнать
 				стоимость верстки вашего проекта</p>
 
@@ -386,6 +387,26 @@
 		</div>	
 	</div>
 </div>
+	
+	<!-- Форма обратной связи модальное окно -->
+	<div id="myModal" class="modal">
+		  <div class="modal-content">
+		    <div class="modal-header">
+		      <span class="close">&times;</span>
+		      <h2 class="modal_title">Форма обратной связи</h2>
+		    </div>
+		    <div class="modal-body">
+		      <form id="form" class="form">
+		      	<input type="text" class="form-input form-name" placeholder="Ваше имя" required="">
+		      	<input type="tel" class="form-input form-tel" placeholder="7(999)-999-99-99" required="">
+		      	<button class="button button_submit" id="button" value="submit">Отправить</button>
+		      	<p class="modal_success">*Нажимая отправить вы даете согласие на обработку ваших персональных данных</p>
+		      </form>
+		    </div>
+		  </div>
+
+	</div>
+
 	
 
 	<!-- Подключение jQuery -->
@@ -399,6 +420,9 @@
 
 	<!-- Подключаем fancybox -->
 	<script src="js/jquery.fancybox.min.js"></script>
+	
+	<!-- mask jquery -->
+	<script src="js/jquery.mask.min.js"></script>
 
 	<!-- Продключение JavaScript -->
 	<script src="js/main.js"></script>
