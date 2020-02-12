@@ -62,7 +62,7 @@ $(function(){
        $('.header_title, .header_slogan, .fa-chevron-down, .header__subtitle').removeClass('hidden');
        $('.container').removeClass('container-off');
 
-    })
+    });
 	
 	$('a[href^="#"]').click(function(event){
 
@@ -82,23 +82,23 @@ $(function(){
   });
 
 	// Модальное окно формы обратной связи
-// 	var modal = document.getElementById('myModal');
-// 	var btn = document.getElementsByClassName("button")[0];
-// 	var span = document.getElementsByClassName("close")[0];
+	var modal = document.getElementById('myModal');
+	var btn = document.getElementsByClassName("button")[0];
+	var span = document.getElementsByClassName("close")[0];
 
-// 	btn.onclick = function() {
-// 	    modal.style.display = "block";
-// 	}
+	btn.onclick = function() {
+	    modal.style.display = "block";
+	}
 
-// 	span.onclick = function() {
-// 	    modal.style.display = "none";
-// 	}
+	span.onclick = function() {
+	    modal.style.display = "none";
+	}
 
-// 	window.onclick = function(event) {
-// 	    if (event.target == modal) {
-// 	        modal.style.display = "none";
-// 	    }
-// 	}
+	window.onclick = function(event) {
+	    if (event.target == modal) {
+	        modal.style.display = "none";
+	    }
+	}
 
 	// feedback
 // 	$('form').submit(function () {
