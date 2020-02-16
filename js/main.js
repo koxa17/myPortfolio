@@ -62,7 +62,7 @@ $(function(){
        $('.header_title, .header_slogan, .fa-chevron-down, .header__subtitle').removeClass('hidden');
        $('.container').removeClass('container-off');
 
-    });
+    })
 	
 	$('a[href^="#"]').click(function(event){
 
@@ -99,23 +99,23 @@ $(function(){
 	        modal.style.display = "none";
 	    }
 	}
-
+	
 	// feedback
-// 	$('form').submit(function () {
-//             var formID = $(this).attr('id'); // Получение ID формы
-//             var formNm = $('#' + formID);
-//             $.ajax({
-//                 type: 'POST',
-//                 url: 'feedback.php', // Обработчик формы отправки
-//                 data: formNm.serialize(),
-//                 success: function (data) {
-//                     // Вывод текста результата отправки в текущей форме
-//                     $(formNm).html(data);
-//                     console.log("Отправленно!");
-//                 }
-//             });
-//             return false;
-//     });
+	// $('form').submit(function () {
+ //            var formID = $(this).attr('id'); // Получение ID формы
+ //            var formNm = $('#' + formID);
+ //            $.ajax({
+ //                type: 'POST',
+ //                url: 'feedback.php', // Обработчик формы отправки
+ //                data: formNm.serialize(),
+ //                success: function (data) {
+ //                    // Вывод текста результата отправки в текущей форме
+ //                    $(formNm).html(data);
+ //                    console.log("Отправленно!");
+ //                }
+ //            });
+ //            return false;
+ //    });
 
 	// Маска на телефон
 	$('.form-tel').mask('+7(000)000-00-00');
@@ -125,12 +125,13 @@ $(function(){
 	$('[data-fancybox]').fancybox({
 		protect: true,
 		keyboard: false,
+		idleTime: false,
 		arrows: false,
 		infobar: false,
+		closeExisting: false,
+		smallBtn: true,
 		toolbar: false,
 		wheel: false,
-		clickContent: function(current, event) {
-   				 return current.type === "image" ? false : true;
- 		}
+		clickOutside: true
 		});
 });
