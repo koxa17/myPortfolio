@@ -143,24 +143,7 @@ ul, li {
 	margin-bottom: 30px;
 	font-family: 'Merriweather', serif;
 	margin-top: -50px;
-	text-shadow: 
-		-0   -1px 1px #000000,
-		 0   -1px 1px #000000,
-		-0    1px 1px #000000,
-		 0    1px 1px #000000,
-		-1px -0   1px #000000,
-		 1px -0   1px #000000,
-		-1px  0   1px #000000,
-		 1px  0   1px #000000,
-		-1px -1px 1px #000000,
-		 1px -1px 1px #000000,
-		-1px  1px 1px #000000,
-		 1px  1px 1px #000000,
-		-1px -1px 1px #000000,
-		 1px -1px 1px #000000,
-		-1px  1px 1px #000000,
-		 1px  1px 1px #000000;
-		 font-weight: bold;
+	font-weight: bold;
 }
 
 .header__subtitle {
@@ -169,50 +152,14 @@ ul, li {
 	letter-spacing: 3px;
 	font-family: 'Merriweather', serif;
 	margin-bottom: 80px;
-	text-shadow: 
-		-0   -1px 1px #000000,
-		 0   -1px 1px #000000,
-		-0    1px 1px #000000,
-		 0    1px 1px #000000,
-		-1px -0   1px #000000,
-		 1px -0   1px #000000,
-		-1px  0   1px #000000,
-		 1px  0   1px #000000,
-		-1px -1px 1px #000000,
-		 1px -1px 1px #000000,
-		-1px  1px 1px #000000,
-		 1px  1px 1px #000000,
-		-1px -1px 1px #000000,
-		 1px -1px 1px #000000,
-		-1px  1px 1px #000000,
-		 1px  1px 1px #000000;
 }
 
 .header_slogan {
 	font-size: 28px;
 	line-height: 42px;
-
-	text-shadow: 
-		-0   -1px 1px #000000,
-		 0   -1px 1px #000000,
-		-0    1px 1px #000000,
-		 0    1px 1px #000000,
-		-1px -0   1px #000000,
-		 1px -0   1px #000000,
-		-1px  0   1px #000000,
-		 1px  0   1px #000000,
-		-1px -1px 1px #000000,
-		 1px -1px 1px #000000,
-		-1px  1px 1px #000000,
-		 1px  1px 1px #000000,
-		-1px -1px 1px #000000,
-		 1px -1px 1px #000000,
-		-1px  1px 1px #000000,
-		 1px  1px 1px #000000;
 }
 
 .border-bottom {
-	/*color: #FFBB01;*/
 	border-bottom: 1px #fff solid;
 }
 
